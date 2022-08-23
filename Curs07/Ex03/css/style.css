@@ -21,3 +21,9 @@ body {
 .box-3 {
   background-color: bisque;
 }
+
+
+.box-1 {
+  border-color: green;
+  color: purple;
+}
