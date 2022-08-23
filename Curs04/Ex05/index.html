@@ -24,16 +24,113 @@
     <a
       href="/"
       title="Create Account"
-    ><b>Create Account</b></a>
+    ><b>Create Account</b></a> |
+    <a
+      href="/"
+      title="You Account"
+    >Your Account</a> |
+    <a
+      href="/"
+      title="Customer Service"
+    >Customer Service</a> |
+    <a
+      href="/"
+      title="Contact"
+    >Contact</a>
   </p>
 
-  <!-- insert code -->
+  <h1>Create Account</h1>
+  <p>
+    <img
+      src="images/your-account.jpg"
+      alt="your account"
+    >
+  </p>
+  <p>This is your account section.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <h2>Create an account</h2>
+
 
   <form>
     <fieldset>
       <legend>Account data:</legend>
+      <label>Title:</label>
+      <label for="male">Mr</label>
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+      <label for="female">Ms</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      >
+      <label for="na">Unspecified</label>
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+      ><br>
 
-      <!-- insert code -->
+      <label for="name">*Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+      <label for="surname">*Surname:</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      ><br>
+      <label for="username">*Username:</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Username"
+        required
+      ><br>
+      <label for="email">*Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      ><br>
+      <label for="password">*Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Password"
+        required
+      ><br>
+      <label for="password-confirm">*Confirm Password:</label>
+      <input
+        type="password"
+        name="password-confirm"
+        id="password-confirm"
+        placeholder="Confirm Password"
+        required
+      >
+      <br>
 
       <input
         type="checkbox"
@@ -46,8 +143,69 @@
           href="/"
           title="terms and conditions"
         >terms and conditions</a>
-      </label>
+      </label><br>
+
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+      >
+      <label for="subscribe">Agree to this and <i>we will send you emails</i>.</label><br>
+
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      >
+      <label for="gdpr-consent">GDPR generic consent?</label>
+      <br>
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >Create Account</button>
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >Reset</button>
+
     </fieldset>
+
+    <p>
+      <img
+        src="images/thank_you.jpg"
+        alt="thank you"
+      >
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <p>
+      <a
+        href="/"
+        title="Home"
+      >Home</a> |
+      <a
+        href="/"
+        title="Create Account"
+      ><b>Create Account</b></a> |
+      <a
+        href="/"
+        title="You Account"
+      >Your Account</a> |
+      <a
+        href="/"
+        title="Customer Service"
+      >Customer Service</a> |
+      <a
+        href="/"
+        title="Contact"
+      >Contact</a>
+    </p>
+
   </form>
 
   <div
