@@ -1,1 +1,25 @@
+.my-div {
+  width: 500px;
+  height: 102px;
+  background-color: red;
+  border: 1px solid green;
+  /* recipe */
+  margin: 0 auto;
+}
 
+.blue {
+  width: 150px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: blue;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 21px;
+  padding-top: 25px;
+}
+
+.container {
+  width: 100%;
+  border: 3px solid green;
+  padding: 15px;
+}
