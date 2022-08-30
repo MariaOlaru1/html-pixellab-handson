@@ -123,3 +123,30 @@ body {
 ol a {
   font-weight: bold;
 }
+
+h1 {
+  color: red;
+  font-family: 'Julius Sans One';
+  font-size: 35px;
+}
+ul li {
+  font-family: 'Julius Sans One';
+  line-height: 25px;
+}
+
+h3 {
+  font-style: bold;
+  color: green;
+  font-size: 28px;
+}
+
+h2 {
+  color: purple;
+  text-decoration: underline;
+  font-size: 32px;
+  font-family: 'Julius Sans One';
+}
+
+p {
+  line-height: 23px;
+}

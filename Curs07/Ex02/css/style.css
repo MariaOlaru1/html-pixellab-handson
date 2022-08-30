@@ -14,3 +14,31 @@ text-decoration: none;
 {
 color: red;
 }
+
+a {
+  color: green;
+}
+
+p .line {
+  color: gray;
+}
+
+p b {
+  text-decoration: underline violet;
+}
+
+[href*=".com"] {
+  color: black;
+}
+
+p b {
+  color: purple;
+}
+
+.odd .line {
+  color: blue;
+}
+
+.odd i {
+  text-decoration: underline;
+}
