@@ -1,0 +1,9 @@
+.my-div {
+  width: 300px;
+  height: 202px;
+  background-color: red;
+  border: 1px solid green;
+  /* recipe for centering blocks */
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px green;
+}

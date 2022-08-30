@@ -1,4 +1,54 @@
+body {
+  padding: 24px 0;
+}
+
 .container {
-  border: 1px solid #000; 
+  border: 1px solid #000;
   padding: 5px;
 }
+
+.nav-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 12px;
+  z-index: 1;
+}
+
+.nav-bottom {
+  background-color: green;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-bottom a {
+  color: white;
+}
+
+.nav-top a {
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+.legend {
+  background-color: grey;
+  border: 1px solid black;
+  border: red;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.sub {
+  position: relative;
+  bottom: -5px;
+  font-size: 14px;
+}
+
