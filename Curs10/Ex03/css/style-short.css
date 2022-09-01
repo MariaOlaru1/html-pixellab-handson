@@ -1,0 +1,12 @@
+.pane-short .heading {
+  text-decoration: underline solid red;
+  padding: 10px 11px;
+  border: 1px dashed green;
+}
+
+.pane-short .container p {
+  border: 1px solid royalblue;
+  margin: 11px 22px 13px 15px;
+  padding: 8px 8px 10px 10px;
+  text-decoration: underline solid lawngreen;
+}

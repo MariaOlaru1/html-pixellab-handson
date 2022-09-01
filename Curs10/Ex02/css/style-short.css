@@ -1,0 +1,10 @@
+.pane-short .heading {
+border: 1px dashed red;
+padding: 5px 5px 5px 15px;
+}
+
+.pane-short .container {
+  border: 2px solid gray;
+  margin: 18px 22px;
+  padding: 8px;
+}
