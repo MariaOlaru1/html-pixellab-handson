@@ -1,5 +1,27 @@
-/* insert code */
+/* insert code in progress */
 
+p > b {
+  color: purple;
+}
+
+ul > li > i {
+  text-decoration: underline solid black;
+}
+
+h1 + h2 {
+  color: green;
+}
+
+ol ~ h3 {
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+p > i {
+  color: blue;
+}
+
+/* in class */
 
 h2 + h3 {
   text-decoration: underline dotted red;
@@ -14,3 +36,4 @@ ul ~ p {
 ul > li > ul > li {
   text-decoration: underline;
 }
+
