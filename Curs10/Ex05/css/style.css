@@ -1,0 +1,15 @@
+.nested > li > ul > li:last-child a {
+  text-decoration: none;
+}
+
+/* coloreaza fundalul gri pentru al 3 lea element li de nivel 1  din elementele cu clasa my list */
+
+.my-list > li:nth-child(3) {
+background-color: gray;
+}
+
+body h3:nth-of-type(4) {
+  color: green;
+}
+
+

@@ -11,3 +11,17 @@ p:hover i {
   left: 2px;
   top: -2px;
 }
+
+h1:hover {
+  text-decoration: underline;
+}
+
+/* in progress */
+
+p i {
+position: relative;
+}
+
+.main ul li:nth-child(even) {
+
+}
