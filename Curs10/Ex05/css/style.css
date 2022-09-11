@@ -12,4 +12,47 @@ body h3:nth-of-type(4) {
   color: green;
 }
 
+.nested > li:first-child a {
+  text-decoration: none;
+}
 
+.last-list li:nth-child(2n+1){
+  background-color: yellow;
+}
+
+body h2:nth-of-type(2n+1) {
+  color: blue;
+  background-color: green;
+}
+
+/* la punctul 7 Subliniaza primele elemente li din listele neordonate cu clasa u-line (si doar din listele neordonate)  (:first-child) nu ar fi corect si asa?*/
+.u-line ul > li:first-child {
+  text-decoration: underline;
+}
+
+/* punct 7 varianta corecta */
+ul.u-line li:first-child {
+  text-decoration: underline;
+}
+
+ul li:last-child {
+  text-decoration: underline;
+}
+
+.last-list li:nth-child(2) a {
+  text-decoration: line-through;
+}
+
+ul li ul li:nth-child(3) {
+  color: purple;
+}
+
+p:nth-of-type(2n+1) {
+  background-color: brown;
+  padding: 15px;
+}
+
+body > ul > li:nth-of-type(3n) {
+  border: solid black 1px;
+  padding: 8px;
+}

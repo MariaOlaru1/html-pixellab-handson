@@ -22,3 +22,29 @@
   border-radius: 50%;
   margin-left: 8px;
 }
+
+/* Stileaza paragraful my-second-list astfel incat sa arate ca o lista neordonata, folosind ::before pentru puncte care sa arate ca cercuri roz  */
+/* punctul 3 a iesit conform pixeltab dar nu vad cercurile :-s why? */
+.my-second-list a::before {
+  content: '';
+  display: inline-block;
+  height: 10ox;
+  width: 10px;
+  background-color: pink;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.my-second-list a {
+  display: block;
+}
+
+.my-second-list a::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  transform: rotate(45deg);
+  margin-right: 8px;
+  display: inline-block;
+}

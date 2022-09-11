@@ -16,12 +16,28 @@ h1:hover {
   text-decoration: underline;
 }
 
-/* in progress */
-
 p i {
 position: relative;
 }
 
-.main ul li:nth-child(even) {
+.main li:nth-of-type(2n) a:hover {
+  color: red;
+}
 
+.secondary a:hover {
+  text-decoration: overline;
+}
+
+.main li:nth-of-type(2n+1) a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+p b {
+  position: relative;
+}
+
+p:hover b {
+  color: red;
+  top: -2px;
 }
