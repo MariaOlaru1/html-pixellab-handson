@@ -171,6 +171,7 @@ table {
 body {
   font-family: 'Roboto', sans-serif;
   color: #707070;
+  font-size: 16px;
 }
 
 a {
@@ -180,3 +181,144 @@ a {
 
 /* add reset */
 /* add custom resets box sizing anchors ul li */
+/* same for monochrome */
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* header */
+.header {
+  margin: 30px auto;
+}
+
+.header-secondary .header-support {
+  float: left;
+}
+
+.header-secondary .header-support li {
+  display: inline-block;
+}
+
+.header-secondary .header-support li:first-child {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #707070;
+}
+
+.header-secondary .header-support li:first-child i[class*='fa-'] {
+  color: #ff6b6b;
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+.header-secondary .header-controls {
+  float: right;
+}
+
+.header-secondary .header-controls > ul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header.header-secondary .header-controls li:nth-child(1) a {
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-secondary .header-controls .header-user-controls .icon {
+  font-size: 24px;
+  margin-left: 8x;
+}
+
+.header-secondary .header-controls li:last-child a {
+  font-size: 28px;
+  position: relative;
+}
+
+.header-secondary .header-controls .cart-controls .qty {
+  background-color: #ff6b6b;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -4px;
+  right: -8px;
+  padding: 0 6px;
+  border-radius: 20px;
+}
+
+.header-secondary .header-controls li {
+  display: inline-block;
+}
+
+.header-secondary .header-logo {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+}
+
+.header-primary {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.nav-primary {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.nav-primary li {
+  display: inline-block;
+}
+
+.nav-primary a {
+  padding: 6px 14px;
+  margin: 0 8px;
+  border-radius: 20px;
+  transition: backgroung-color 0.4s linear, color 0.4s linear;
+}
+
+.nav-primary a:hover {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.nav-secondary {
+  text-align: center;
+  font-size: 14px;
+
+}
+
+.nav-secondary li {
+  display: inline;
+  margin: 0 8px;
+}
+
+.nav-secondary a {
+  transition: color 0.4s linear;
+}
+
+.nav-secondary a:hover {
+  color: #ff6b6b;
+}
+
+/* ./header */
+
+
+/* footer */
+.footer-primary {
+  background-color: #1b1927;
+}
+/* ./footer */
+
+/* homepage */
+/* ./homepage */
