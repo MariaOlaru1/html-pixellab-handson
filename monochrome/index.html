@@ -30,56 +30,8 @@
 
 <body>
 
-  <header>
-    <section class="header-primary">
-      <nav class="header-primary-selection">
-        <ul>
-          <li>
-            <a
-              href=""
-              title="new arrivals"
-            >new arrivals</a>
-          </li>
+  <header class="container">
 
-          <li>
-            <a
-              href="/"
-              title="brands"
-            >brands</a>
-          </li>
-
-          <li>
-            <a
-              href="/"
-              title="men's"
-            >men's</a>
-          </li>
-
-          <li>
-            <a
-              href="/"
-              title="women's"
-            >women's</a>
-          </li>
-
-          <li>
-            <a
-              href="/"
-              title="accessories"
-            >accessories</a>
-          </li>
-
-          <li>
-            <a
-              href="/"
-              title="lookbook"
-            >lookbook</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- ./header-primary-selection -->
-    </section>
-    <!-- ./header-primary -->
     <section class="header-secondary">
       <a
         href="/"
@@ -90,7 +42,7 @@
         src="images/header/monochrome_banner_header.png"
         alt="Monochrome banner"
       ></a>
-
+      <!-- poate de schimbat - backround image ?  -->
       <div class="header-connect">
         <ul>
           <li>
@@ -134,7 +86,7 @@
         </ul>
 
         <a
-          href="+44 (0)10 2345 6789"
+          href="tel:+44 (0)10 2345 6789"
           title="call us"
         >Call us +44 (0)10 2345 6789
         </a>
@@ -183,17 +135,66 @@
       <!-- ./header-controls -->
     </section>
     <!-- ./header-secondary -->
+    <section class="header-primary">
+      <nav class="nav-primary">
+        <ul>
+          <li>
+            <a
+              href=""
+              title="new arrivals"
+            >new arrivals</a>
+          </li>
+
+          <li>
+            <a
+              href="/"
+              title="brands"
+            >brands</a>
+          </li>
+
+          <li>
+            <a
+              href="/"
+              title="men's"
+            >men's</a>
+          </li>
+
+          <li>
+            <a
+              href="/"
+              title="women's"
+            >women's</a>
+          </li>
+
+          <li>
+            <a
+              href="/"
+              title="accessories"
+            >accessories</a>
+          </li>
+
+          <li>
+            <a
+              href="/"
+              title="lookbook"
+            >lookbook</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ./header-primary -->
+    </section>
+    <!-- ./header-primary -->
   </header>
   <!-- ./header -->
 
-  <main class="content">
+  <main class="content container">
     <div class="content-main">
-      <section class="home-catalog-preview 1">
+      <section class="home-catalog-preview">
         <header>
-          <h1><span>New Stuff</span></h1>
+          <h1>New Stuff</h1>
         </header>
 
-        <ul class="product-tile">
+        <ul class="product-tiles">
           <li>
             <article class="product-tile">
               <header>
@@ -341,15 +342,15 @@
             </article>
             <!-- ./product-tile -->
           </li>
-          <!-- ./product-tiles -->
         </ul>
+        <!-- ./product-tiles -->
 
       </section>
-      <!-- ./home-catalog-preview 1-->
+      <!-- ./home-catalog-preview -->
 
-      <section class="home-catalog-preview 2">
+      <section class="home-catalog-preview">
         <header>
-          <h1><span>Most loved</span></h1>
+          <h1>Most loved</h1>
         </header>
 
         <ul class="product-tile">
@@ -367,15 +368,19 @@
                     >
                   </a>
 
-                  <span class="product-tile-badge"><i class="fa-regular fa-heart"></i></span>
+                  <a
+                    class="product-tile-badge"
+                    href="/"
+                    title="heart"
+                  ><i class="fa-regular fa-heart"></i></a>
+
                 </div>
 
                 <h1 class="product-tile-title">
                   <a
                     href=""
                     title="Monochrome White Watch Silver"
-                  >
-                    <span>Monochrome</span>
+                  >Monochrome
                   </a>
                 </h1>
               </header>
@@ -404,15 +409,19 @@
                     >
                   </a>
 
-                  <span class="product-tile-badge"><i class="fa-regular fa-heart"></i></span>
+                  <a
+                    class="product-tile-badge"
+                    href="/"
+                    title="heart"
+                  ><i class="fa-regular fa-heart"></i>
+                  </a>
                 </div>
 
                 <h1 class="product-tile-title">
                   <a
                     href=""
                     title="Monochrome Black Watch Full"
-                  >
-                    <span>Monochrome</span>
+                  >Monochrome
                   </a>
                 </h1>
               </header>
@@ -441,15 +450,19 @@
                     >
                   </a>
 
-                  <span class="product-tile-badge"><i class="fa-regular fa-heart"></i></span>
+                  <a
+                    class="product-tile-badge"
+                    href="/"
+                    title="heart"
+                  ><i class="fa-regular fa-heart"></i>
+                  </a>
                 </div>
 
                 <h1 class="product-tile-title">
                   <a
                     href=""
                     title="Monochrome Black Watch Grey"
-                  >
-                    <span>Monochrome</span>
+                  >Monochrome
                   </a>
                 </h1>
               </header>
@@ -478,15 +491,19 @@
                     >
                   </a>
 
-                  <span class="product-tile-badge"><i class="fa-regular fa-heart"></i></span>
+                  <a
+                    class="product-tile-badge"
+                    href="/"
+                    title="heart"
+                  ><i class="fa-regular fa-heart"></i>
+                  </a>
                 </div>
 
                 <h1 class="product-tile-title">
                   <a
                     href=""
                     title="Monochrome Black Watch Silver"
-                  >
-                    <span>Monochrome</span>
+                  >Monochrome
                   </a>
                 </h1>
               </header>
@@ -504,7 +521,7 @@
         </ul>
 
       </section>
-      <!-- ./home-catalog-preview 2-->
+      <!-- ./home-catalog-preview-->
     </div>
     <!-- ./content-main -->
     </header>
@@ -536,9 +553,9 @@
     </section>
     <!-- ./home-content -->
 
-    <div class="content-catalog-cta 1">
+    <div class="content-catalog-cta">
       <header>
-        <h1><span>Men's</span></h1>
+        <h1>Men's</h1>
       </header>
 
       <ul class="product-tiles">
@@ -703,7 +720,7 @@
       <!-- ./home-catalog-cta 1 -->
     </div>
 
-    <div class="content-catalog-cta 2">
+    <div class="content-catalog-cta">
       <header>
         <h1><span>Women's</span></h1>
       </header>
@@ -873,19 +890,17 @@
   </main>
   <!-- ./content -->
 
-  <footer class="footer">
+  <footer class="footer container">
     <section class="footer-contact">
       <ul>
         <li>
-          <p>call us</p>
+          <a href="tel:+44 (0)10 2345 6789">call us +44 (0)10 2345 6789
+          </a>
         </li>
 
         <li>
-          <p>+44 (0)10 2345 6789</p>
-        </li>
-
-        <li>
-          <p>email customer care</p>
+          <a href="mailto:customercare@pixellab.com">email customer care
+          </a>
         </li>
 
         <li>
@@ -995,7 +1010,7 @@
         <button
           type="submit"
           title="submit"
-        >SUBMIT
+        >submit
         </button>
       </form>
       <!-- ./footer-newsletter -->
