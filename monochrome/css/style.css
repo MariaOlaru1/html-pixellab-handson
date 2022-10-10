@@ -293,9 +293,266 @@ a {
 /* home */
 
 .container {
-  max-width: 1920px;
+  max-width: 1900px;
   margin: 0 auto;
   width: 100%;
 }
 
+
+
 /* header */
+
+.header-secondary .banner {
+  position: relative;
+}
+
+.header-secondary .banner img {
+  display: block;
+}
+
+
+*/
+
+.header-secondary .header-connect {
+  float: left;
+}
+
+.header-secondary .header-connect li {
+  display: inline-flex;
+}
+
+.header-secondary .header-controls {
+  float: right;
+}
+
+.header-secondary .header-controls li {
+  display: inline-flex;
+}
+
+
+.nav-primary ul {
+  background-color: #2B2B2B;
+  padding: 14px;
+  text-align: center;
+}
+
+.header-primary .nav-primary li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0 0 5px 6px;
+  margin-left: 100px;
+  font-family: playfair display;
+  font-style: normal;
+  color: #E8E8E8;
+  font-size: 19px;
+}
+
+
+/* ./header */
+
+
+/* content */
+
+
+.home-catalog-preview ul {
+  display: flex;
+  justify-content: center;
+}
+
+.home-catalog-preview ul {
+  text-align: center;
+}
+
+.home-catalog-preview ul h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  padding: 20px;
+}
+
+.home-catalog-preview .product-tile .product-tile-pricing span {
+  font-family: playfair display;
+  font-size: 22px;
+  font-weight: normal;
+  display: block;
+  margin-top: 7px;
+}
+
+.home-catalog-ctas {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  font-family: Roboto-Regular;
+
+}
+
+.content-catalog-cta ul {
+  display: flex;
+  justify-content: center;
+}
+
+.content-main > section > header h1 {
+  font-size: 35px;
+  line-height: 80px;
+  text-align: center;
+  color: #292929;
+  font-weight: bold;
+  font-family: playfair display;
+}
+
+
+/*
+.content-main > section > header h1 span {
+  font-weight: 500;
+}
+ */
+
+
+.home-content .aside img {
+  float: left;
+  margin-top: 30px;
+  }
+
+.home-content .content-text {
+  font-family: Roboto;
+  display: block;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.home-content .content-text h1 {
+  font-size: 44px;
+  font-weight: 500;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  margin-right: 120px
+}
+
+.home-content .content-text p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 22px;
+  width: 500px;
+  font-weight: 100;
+  margin-right: 115px;
+  margin-left: 20px;
+}
+
+.home-content .content-text p:nth-child(4) {
+  margin-bottom: 130px;
+}
+
+.content-catalog-cta ul {
+  text-align: center;
+}
+.content-catalog-cta ul h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+.content-catalog-cta > header h1 {
+  font-size: 35px;
+  line-height: 80px;
+  text-align: center;
+  color: #292929;
+  font-weight: bold;
+  font-family: playfair display;
+}
+
+.content-catalog-cta .product-tile .product-tile-pricing span {
+  font-family: playfair display;
+  font-size: 22px;
+  font-weight: normal;
+  display: block;
+  margin-top: 7px;
+}
+
+
+.product-tile .product-tile-image .product-tile-badge {
+  color: #2B2B2B;
+  font-size: 20px;
+}
+
+
+/* ./content */
+
+
+
+
+/* footer */
+
+.footer {
+  background-color: #E8E8E8;
+  font-size: 22px;
+  font-family: playfair display;
+  font-weight: 600;
+  text-decoration: #2B2B2B;
+}
+
+.footer-contact {
+  position: absolute;
+}
+
+.footer-contact ul {
+  margin-top: 60px;
+  margin-left: 230px;
+}
+
+.footer-contact ul li {
+  padding: 4px;
+}
+
+
+.footer-nav {
+  margin-bottom: 40px;
+}
+
+.footer-nav ul {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 60px;
+}
+
+.footer-nav ul li {
+  padding: 4px;
+}
+
+.footer-nav ul:first-child {
+  margin-left: 560px;
+}
+
+.footer-nav ul:nth-child(2) {
+  margin-left: 100px;
+}
+
+.footer-connect {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.footer-connect .footer-newsletter p {
+  padding: 5px;
+}
+
+.footer-connect .footer-newsletter button {
+  display: block;
+  text-transform: uppercase;
+  border: 1px solid #2B2B2B;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.footer-connect .footer-social li {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+/* ./footer */
