@@ -30,7 +30,7 @@
 
 <body>
 
-  <header class="container">
+  <header class="header">
 
     <section class="header-secondary">
       <a
@@ -38,100 +38,99 @@
         class="banner"
         title="Monochrome banner"
       ></a>
-      <img
-        src="images/header/monochrome_banner_header.png"
-        alt="Monochrome banner"
-      ></a>
-      <!-- poate de schimbat - backround image ?  -->
-      <div class="header-connect">
-        <ul>
-          <li>
-            <a
-              href="http://www.youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Youtube"
-            ><i class="fa-brands fa-square-youtube"></i>
-            </a>
-          </li>
 
-          <li>
-            <a
-              href="http://www.facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Facebook"
-            ><i class="fa-brands fa-facebook"></i>
-            </a>
-          </li>
+      <section class="header-secondary-inner container">
+        <div class="header-connect">
+          <ul>
+            <li>
+              <a
+                href="http://www.youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Youtube"
+              ><i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
 
-          <li>
-            <a
-              href="http://www.twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Twitter"
-            ><i class="fa-brands fa-square-twitter"></i>
-            </a>
-          </li>
+            <li>
+              <a
+                href="http://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Facebook"
+              ><i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
 
-          <li>
-            <a
-              href="http://www.instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Instagram"
-            ><i class="fa-brands fa-square-instagram"></i></a>
-          </li>
-        </ul>
+            <li>
+              <a
+                href="http://www.twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Twitter"
+              ><i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
 
-        <a
-          href="tel:+44 (0)10 2345 6789"
-          title="call us"
-        >Call us +44 (0)10 2345 6789
-        </a>
-      </div>
-      <!-- ./header-connect -->
+            <li>
+              <a
+                href="http://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Instagram"
+              ><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
 
-      <div class="header-controls">
-        <button
-          type="submit"
-          name="search"
-          title="Search"
-        ><i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-        <input
-          type="text"
-          name="search"
-          id="search"
-          value="Search"
-        >
-        <ul>
-          <li>
-            <a
-              href="/"
-              title="User"
-            ><i class="fa-solid fa-user"></i>
-            </a>
-          </li>
+          <a
+            href="tel:+44 (0)10 2345 6789"
+            title="call us"
+          >Call us +44 (0)10 2345 6789
+          </a>
+        </div>
 
-          <li>
-            <a
-              href="/"
-              title="Favorites"
-            ><i class="fa-solid fa-heart"></i>
-            </a>
-          </li>
+        <!-- ./header-connect -->
 
-          <li>
-            <a
-              href="/"
-              title="Shopping-cart"
-            ><i class="fa-solid fa-cart-shopping"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
+        <div class="header-controls">
+          <button
+            type="submit"
+            name="search"
+            title="Search"
+          ><i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            value="Search"
+          >
+          <ul>
+            <li>
+              <a
+                href="/"
+                title="User"
+              ><i class="fa-solid fa-user"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="/"
+                title="Favorites"
+              ><i class="fa-solid fa-heart"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="/"
+                title="Shopping-cart"
+              ><i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
       <!-- ./header-controls -->
     </section>
     <!-- ./header-secondary -->
@@ -187,9 +186,9 @@
   </header>
   <!-- ./header -->
 
-  <main class="content container">
+  <main class="content">
     <div class="content-main">
-      <section class="home-catalog-preview">
+      <section class="home-catalog-preview container">
         <header>
           <h1>New Stuff</h1>
         </header>
@@ -891,175 +890,179 @@
   </main>
   <!-- ./content -->
 
-  <footer class="footer container">
-    <section class="footer-contact">
-      <ul>
-        <li>
-          <a href="tel:+44 (0)10 2345 6789">call us +44 (0)10 2345 6789
-          </a>
-        </li>
+  <footer class="footer ">
+    <div class="footer-inner container">
+      <section class="footer-contact">
+        <ul>
+          <li>
+            <a href="tel:+44 (0)10 2345 6789">call us +44 (0)10 2345 6789
+            </a>
+          </li>
 
-        <li>
-          <a href="mailto:customercare@pixellab.com">email customer care
-          </a>
-        </li>
+          <li>
+            <a href="mailto:customercare@pixellab.com">email customer care
+            </a>
+          </li>
 
-        <li>
-          <a
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Monochrome mobile version"
-          >see mobile version</a>
-        </li>
-      </ul>
-    </section>
-    <!-- ./footer-contact -->
+          <li>
+            <a
+              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Monochrome mobile version"
+            >see mobile version</a>
+          </li>
+        </ul>
+      </section>
+      <!-- ./footer-contact -->
 
-    <nav class="footer-nav">
-      <ul>
-        <li>
-          <a
-            href="/"
-            title="fit advice"
-          >style & fit advice</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="faqs"
-          >faqs</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="delivery"
-          >delivery</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="exchanges & returns"
-          >exchanges & returns</a>
-        </li>
-      </ul>
-
-      <ul>
-        <li>
-          <a
-            href="/"
-            title="about us"
-          >about us</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="careers"
-          >careers</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="affiliates"
-          >affiliates</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="advertising"
-          >advertising</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- ./footer-nav -->
-
-    <section class="footer-connect">
-      <form
-        action="/"
-        class="footer-newsletter"
-      >
-        <p>sign up for our newsletter</p>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Email address"
-        >
-        <br>
-        <input
-          type="checkbox"
-          name="gdpr-consent"
-          id="gdpr-consent"
-        >
-        <p>I agree with
-          <a
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="policy"
-          >Privacy Policy
-          </a> and I want to receive emails from Monochrome
-        </p>
-
-        <button
-          type="submit"
-          title="submit"
-        >submit
-        </button>
-      </form>
-      <!-- ./footer-newsletter -->
-
-      <div class="footer-social">
+      <nav class="footer-nav">
         <ul>
           <li>
             <a
-              href="http://www.youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Youtube"
-            ><i class="fa-brands fa-square-youtube"></i>
-            </a>
+              href="/"
+              title="fit advice"
+            >style & fit advice</a>
           </li>
 
           <li>
             <a
-              href="http://www.facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Facebook"
-            ><i class="fa-brands fa-facebook"></i>
-            </a>
+              href="/"
+              title="faqs"
+            >faqs</a>
           </li>
 
           <li>
             <a
-              href="http://www.twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Twitter"
-            ><i class="fa-brands fa-square-twitter"></i>
-            </a>
+              href="/"
+              title="delivery"
+            >delivery</a>
           </li>
 
           <li>
             <a
-              href="http://www.instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Instagram"
-            ><i class="fa-brands fa-square-instagram"></i></a>
+              href="/"
+              title="exchanges & returns"
+            >exchanges & returns</a>
           </li>
         </ul>
-      </div>
-      <!-- footer-social -->
-    </section>
-    <!-- ./footer-connect -->
+
+        <ul>
+          <li>
+            <a
+              href="/"
+              title="about us"
+            >about us</a>
+          </li>
+
+          <li>
+            <a
+              href="/"
+              title="careers"
+            >careers</a>
+          </li>
+
+          <li>
+            <a
+              href="/"
+              title="affiliates"
+            >affiliates</a>
+          </li>
+
+          <li>
+            <a
+              href="/"
+              title="advertising"
+            >advertising</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ./footer-nav -->
+
+      <section class="footer-connect">
+        <form
+          action="/"
+          class="footer-newsletter"
+        >
+          <p>sign up for our newsletter</p>
+          <div class="box">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email address"
+            >
+            <br>
+            <input
+              type="checkbox"
+              name="gdpr-consent"
+              id="gdpr-consent"
+            >
+            <p>I agree with
+              <a
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="policy"
+              > Privacy Policy
+              </a> and I want to receive emails from Monochrome
+            </p>
+          </div>
+          <button
+            type="submit"
+            title="submit"
+          >submit
+          </button>
+        </form>
+        <!-- ./footer-newsletter -->
+
+        <div class="footer-social">
+          <ul>
+            <li>
+              <a
+                href="http://www.youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Youtube"
+              ><i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="http://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Facebook"
+              ><i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="http://www.twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Twitter"
+              ><i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="http://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Instagram"
+              ><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- footer-social -->
+      </section>
+      <!-- ./footer-connect -->
+    </div>
+    <!-- ./footer-inner container -->
   </footer>
   <!-- ./footer -->
 

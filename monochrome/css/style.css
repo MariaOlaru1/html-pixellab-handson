@@ -281,7 +281,7 @@ table {
 }
 
 body {
-  font-family: 'PlayfairDisplay', sans-serif;
+  font-family: 'Playfair Display SC', sans-serif;
   color: #2B2B2B;
 }
 
@@ -293,7 +293,7 @@ a {
 /* home */
 
 .container {
-  max-width: 1900px;
+  max-width: 1536px;
   margin: 0 auto;
   width: 100%;
 }
@@ -302,32 +302,47 @@ a {
 
 /* header */
 
+
+
 .header-secondary .banner {
   position: relative;
 }
 
-.header-secondary .banner img {
-  display: block;
+.header-secondary {
+  background: url(../images/header/monochrome_banner_header.jpg) center center / cover ;
+  position: relative;
+  height: 500px;
+  font-size: 14px;
+  background-color: #2b2b2b;
 }
 
-
-*/
+.header-secondary-inner .header-connect a:nth-child(2) {
+  font-size: 16px;
+  color: #FFFFFF;
+}
 
 .header-secondary .header-connect {
   float: left;
+  display: flex;
+  flex-direction: row;
+  color: #FFFFFF;
+  font-size: 28px;
 }
-
 .header-secondary .header-connect li {
   display: inline-flex;
 }
 
 .header-secondary .header-controls {
   float: right;
+  display: flex;
+  flex-direction: row;
 }
 
 .header-secondary .header-controls li {
   display: inline-flex;
 }
+
+/* de continuat header pozitionare fonturi etc */
 
 
 .nav-primary ul {
@@ -382,9 +397,9 @@ a {
   display: block;
   text-align: center;
   font-size: 22px;
-  padding: 10px;
+  padding: 20px;
+  margin: 50px;
   font-family: Roboto-Regular;
-
 }
 
 .content-catalog-cta ul {
@@ -478,6 +493,7 @@ a {
 .product-tile .product-tile-image .product-tile-badge {
   color: #2B2B2B;
   font-size: 20px;
+
 }
 
 
@@ -492,54 +508,33 @@ a {
   background-color: #E8E8E8;
   font-size: 22px;
   font-family: playfair display;
-  font-weight: 600;
   text-decoration: #2B2B2B;
 }
 
-.footer-contact {
-  position: absolute;
-}
-
-.footer-contact ul {
-  margin-top: 60px;
-  margin-left: 230px;
-}
-
-.footer-contact ul li {
-  padding: 4px;
-}
-
-
-.footer-nav {
-  margin-bottom: 40px;
-}
-
-.footer-nav ul {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 60px;
-}
-
-.footer-nav ul li {
-  padding: 4px;
-}
-
-.footer-nav ul:first-child {
-  margin-left: 560px;
-}
-
-.footer-nav ul:nth-child(2) {
-  margin-left: 100px;
-}
-
-.footer-connect {
+.footer-inner {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.footer-inner .footer-nav ul {
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
 
 .footer-connect .footer-newsletter p {
-  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+
+
+.footer-inner .footer-social li {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 28px;
+  margin-right: 5px;
 }
 
 .footer-connect .footer-newsletter button {
@@ -550,9 +545,35 @@ a {
   cursor: pointer;
 }
 
-.footer-connect .footer-social li {
-  display: inline-block;
-  padding-top: 20px;
+
+/*
+  display: flex;
+  justify-content: center; */
+
+  /*
+  .footer-inner {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+}
+
+.footer-inner .footer-connect ul {
+  display: block;
+}
+   */
+
+
+
+
+
+/*
+
+
+.footer-inner .footer-nav li {
+
+}
+ */
 
 /* ./footer */
