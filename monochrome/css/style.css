@@ -281,7 +281,7 @@ table {
 }
 
 body {
-  font-family: 'Playfair Display SC', sans-serif;
+  font-family: 'Playfair display' sans-serif;
   color: #2B2B2B;
 }
 
@@ -316,13 +316,19 @@ a {
   background-color: #2b2b2b;
 }
 
+.header-secondary-inner {
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-secondary-inner .header-connect a:nth-child(2) {
   font-size: 16px;
   color: #FFFFFF;
 }
 
+
 .header-secondary .header-connect {
-  float: left;
   display: flex;
   flex-direction: row;
   color: #FFFFFF;
@@ -333,13 +339,13 @@ a {
 }
 
 .header-secondary .header-controls {
-  float: right;
   display: flex;
   flex-direction: row;
 }
 
 .header-secondary .header-controls li {
   display: inline-flex;
+  font-size: 28px;
 }
 
 /* de continuat header pozitionare fonturi etc */
